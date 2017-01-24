@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660E043A1DB007FC00EFFA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04391DB007FC00EFFA09 /* AppDelegate.swift */; };
+		660E043F1DB007FC00EFFA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E043D1DB007FC00EFFA09 /* Main.storyboard */; };
+		660E04411DB007FC00EFFA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660E04401DB007FC00EFFA09 /* Assets.xcassets */; };
+		660E04441DB007FC00EFFA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E04421DB007FC00EFFA09 /* LaunchScreen.storyboard */; };
+		660E044F1DB007FC00EFFA09 /* OddsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E044E1DB007FC00EFFA09 /* OddsTests.swift */; };
+		660E045A1DB007FC00EFFA09 /* OddsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04591DB007FC00EFFA09 /* OddsUITests.swift */; };
+		660E04681DB00D4100EFFA09 /* MenuTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04671DB00D4100EFFA09 /* MenuTableTableViewController.swift */; };
+		660E046A1DB0119F00EFFA09 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04691DB0119F00EFFA09 /* FeedTableViewController.swift */; };
+		660E046C1DB0145200EFFA09 /* RequestsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E046B1DB0145200EFFA09 /* RequestsTableViewController.swift */; };
+		660E046E1DB0159600EFFA09 /* CompletedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E046D1DB0159600EFFA09 /* CompletedTableViewController.swift */; };
+		660E04701DB016DF00EFFA09 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E046F1DB016DF00EFFA09 /* LogInViewController.swift */; };
+		660E04721DB01E9500EFFA09 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04711DB01E9500EFFA09 /* FriendsViewController.swift */; };
+		660E04741DB0263600EFFA09 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04731DB0263600EFFA09 /* AddFriendsViewController.swift */; };
+		660E04761DB03BF300EFFA09 /* NewOddsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04751DB03BF300EFFA09 /* NewOddsViewController.swift */; };
+		660E04781DB040DA00EFFA09 /* AcceptOddsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E04771DB040DA00EFFA09 /* AcceptOddsViewController.swift */; };
+		6672FD811DD41AB500813971 /* OddsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6672FD7F1DD41AB500813971 /* OddsModel.xcdatamodeld */; };
+		6672FD831DD4211600813971 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672FD821DD4211600813971 /* SignUpViewController.swift */; };
+		66EC8ECF1DD3D829002004E5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ECE1DD3D829002004E5 /* User.swift */; };
+		66EC8ED21DD3DC26002004E5 /* FriendshipRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ED11DD3DC26002004E5 /* FriendshipRequest.swift */; };
+		66EC8ED41DD3DE3B002004E5 /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ED31DD3DE3B002004E5 /* Friendship.swift */; };
+		66EC8ED61DD3DF03002004E5 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ED51DD3DF03002004E5 /* Challenge.swift */; };
+		66EC8ED81DD3E4DA002004E5 /* OpenChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ED71DD3E4DA002004E5 /* OpenChallenge.swift */; };
+		66EC8EDA1DD3E82B002004E5 /* PersonalChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8ED91DD3E82B002004E5 /* PersonalChallenge.swift */; };
+		66EC8EDC1DD3E9DE002004E5 /* CompletedChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8EDB1DD3E9DE002004E5 /* CompletedChallenge.swift */; };
+		66EC8EDE1DD3ECCA002004E5 /* AcceptedRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8EDD1DD3ECCA002004E5 /* AcceptedRequest.swift */; };
+		66EC8EE01DD408B2002004E5 /* Votes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC8EDF1DD408B2002004E5 /* Votes.swift */; };
+		8A2BB8AB6305745C194416C7 /* Pods_Odds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEA4C62138CC48ED837971E /* Pods_Odds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660E044B1DB007FC00EFFA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660E042E1DB007FC00EFFA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660E04351DB007FC00EFFA09;
+			remoteInfo = Odds;
+		};
+		660E04561DB007FC00EFFA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660E042E1DB007FC00EFFA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660E04351DB007FC00EFFA09;
+			remoteInfo = Odds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4906B8BE8EF9CA200BBA512B /* Pods-Odds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odds.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Odds/Pods-Odds.release.xcconfig"; sourceTree = "<group>"; };
+		660E04361DB007FC00EFFA09 /* Odds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E04391DB007FC00EFFA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660E043E1DB007FC00EFFA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660E04401DB007FC00EFFA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660E04431DB007FC00EFFA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660E04451DB007FC00EFFA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E044A1DB007FC00EFFA09 /* OddsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E044E1DB007FC00EFFA09 /* OddsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsTests.swift; sourceTree = "<group>"; };
+		660E04501DB007FC00EFFA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E04551DB007FC00EFFA09 /* OddsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E04591DB007FC00EFFA09 /* OddsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsUITests.swift; sourceTree = "<group>"; };
+		660E045B1DB007FC00EFFA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E04671DB00D4100EFFA09 /* MenuTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableTableViewController.swift; sourceTree = "<group>"; };
+		660E04691DB0119F00EFFA09 /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		660E046B1DB0145200EFFA09 /* RequestsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsTableViewController.swift; sourceTree = "<group>"; };
+		660E046D1DB0159600EFFA09 /* CompletedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedTableViewController.swift; sourceTree = "<group>"; };
+		660E046F1DB016DF00EFFA09 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		660E04711DB01E9500EFFA09 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		660E04731DB0263600EFFA09 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		660E04751DB03BF300EFFA09 /* NewOddsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOddsViewController.swift; sourceTree = "<group>"; };
+		660E04771DB040DA00EFFA09 /* AcceptOddsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptOddsViewController.swift; sourceTree = "<group>"; };
+		6672FD801DD41AB500813971 /* OddsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OddsModel.xcdatamodel; sourceTree = "<group>"; };
+		6672FD821DD4211600813971 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		66EC8ECE1DD3D829002004E5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		66EC8ED11DD3DC26002004E5 /* FriendshipRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendshipRequest.swift; sourceTree = "<group>"; };
+		66EC8ED31DD3DE3B002004E5 /* Friendship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
+		66EC8ED51DD3DF03002004E5 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		66EC8ED71DD3E4DA002004E5 /* OpenChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenChallenge.swift; sourceTree = "<group>"; };
+		66EC8ED91DD3E82B002004E5 /* PersonalChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalChallenge.swift; sourceTree = "<group>"; };
+		66EC8EDB1DD3E9DE002004E5 /* CompletedChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedChallenge.swift; sourceTree = "<group>"; };
+		66EC8EDD1DD3ECCA002004E5 /* AcceptedRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptedRequest.swift; sourceTree = "<group>"; };
+		66EC8EDF1DD408B2002004E5 /* Votes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Votes.swift; sourceTree = "<group>"; };
+		8CEA4C62138CC48ED837971E /* Pods_Odds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915030FA3BE7076DB6984981 /* Pods-Odds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odds.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Odds/Pods-Odds.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660E04331DB007FC00EFFA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2BB8AB6305745C194416C7 /* Pods_Odds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04471DB007FC00EFFA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04521DB007FC00EFFA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DA590C17C7F5C3E590520D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915030FA3BE7076DB6984981 /* Pods-Odds.debug.xcconfig */,
+				4906B8BE8EF9CA200BBA512B /* Pods-Odds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		660E042D1DB007FC00EFFA09 = {
+			isa = PBXGroup;
+			children = (
+				660E04381DB007FC00EFFA09 /* Odds */,
+				660E044D1DB007FC00EFFA09 /* OddsTests */,
+				660E04581DB007FC00EFFA09 /* OddsUITests */,
+				660E04371DB007FC00EFFA09 /* Products */,
+				19DA590C17C7F5C3E590520D /* Pods */,
+				8C2ADD3ADBD3A63C57F68D6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		660E04371DB007FC00EFFA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660E04361DB007FC00EFFA09 /* Odds.app */,
+				660E044A1DB007FC00EFFA09 /* OddsTests.xctest */,
+				660E04551DB007FC00EFFA09 /* OddsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660E04381DB007FC00EFFA09 /* Odds */ = {
+			isa = PBXGroup;
+			children = (
+				660E04671DB00D4100EFFA09 /* MenuTableTableViewController.swift */,
+				660E046D1DB0159600EFFA09 /* CompletedTableViewController.swift */,
+				6672FD821DD4211600813971 /* SignUpViewController.swift */,
+				660E04691DB0119F00EFFA09 /* FeedTableViewController.swift */,
+				660E04391DB007FC00EFFA09 /* AppDelegate.swift */,
+				660E043D1DB007FC00EFFA09 /* Main.storyboard */,
+				660E04771DB040DA00EFFA09 /* AcceptOddsViewController.swift */,
+				660E04751DB03BF300EFFA09 /* NewOddsViewController.swift */,
+				660E04731DB0263600EFFA09 /* AddFriendsViewController.swift */,
+				660E04711DB01E9500EFFA09 /* FriendsViewController.swift */,
+				660E046F1DB016DF00EFFA09 /* LogInViewController.swift */,
+				660E046B1DB0145200EFFA09 /* RequestsTableViewController.swift */,
+				66EC8ED01DD3D831002004E5 /* Classes */,
+				660E04401DB007FC00EFFA09 /* Assets.xcassets */,
+				660E04421DB007FC00EFFA09 /* LaunchScreen.storyboard */,
+				660E04451DB007FC00EFFA09 /* Info.plist */,
+			);
+			path = Odds;
+			sourceTree = "<group>";
+		};
+		660E044D1DB007FC00EFFA09 /* OddsTests */ = {
+			isa = PBXGroup;
+			children = (
+				660E044E1DB007FC00EFFA09 /* OddsTests.swift */,
+				660E04501DB007FC00EFFA09 /* Info.plist */,
+			);
+			path = OddsTests;
+			sourceTree = "<group>";
+		};
+		660E04581DB007FC00EFFA09 /* OddsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				660E04591DB007FC00EFFA09 /* OddsUITests.swift */,
+				660E045B1DB007FC00EFFA09 /* Info.plist */,
+			);
+			path = OddsUITests;
+			sourceTree = "<group>";
+		};
+		66EC8ED01DD3D831002004E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6672FD7F1DD41AB500813971 /* OddsModel.xcdatamodeld */,
+				66EC8ECE1DD3D829002004E5 /* User.swift */,
+				66EC8ED11DD3DC26002004E5 /* FriendshipRequest.swift */,
+				66EC8ED31DD3DE3B002004E5 /* Friendship.swift */,
+				66EC8ED51DD3DF03002004E5 /* Challenge.swift */,
+				66EC8ED71DD3E4DA002004E5 /* OpenChallenge.swift */,
+				66EC8ED91DD3E82B002004E5 /* PersonalChallenge.swift */,
+				66EC8EDB1DD3E9DE002004E5 /* CompletedChallenge.swift */,
+				66EC8EDD1DD3ECCA002004E5 /* AcceptedRequest.swift */,
+				66EC8EDF1DD408B2002004E5 /* Votes.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8C2ADD3ADBD3A63C57F68D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CEA4C62138CC48ED837971E /* Pods_Odds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660E04351DB007FC00EFFA09 /* Odds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E045E1DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "Odds" */;
+			buildPhases = (
+				3995BD695E54ECA4F03D6D00 /* [CP] Check Pods Manifest.lock */,
+				660E04321DB007FC00EFFA09 /* Sources */,
+				660E04331DB007FC00EFFA09 /* Frameworks */,
+				660E04341DB007FC00EFFA09 /* Resources */,
+				BAEBDC033B43B4376D6ECAC2 /* [CP] Embed Pods Frameworks */,
+				C92E0B6A7F99193DBF32664F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Odds;
+			productName = Odds;
+			productReference = 660E04361DB007FC00EFFA09 /* Odds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660E04491DB007FC00EFFA09 /* OddsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E04611DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "OddsTests" */;
+			buildPhases = (
+				660E04461DB007FC00EFFA09 /* Sources */,
+				660E04471DB007FC00EFFA09 /* Frameworks */,
+				660E04481DB007FC00EFFA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660E044C1DB007FC00EFFA09 /* PBXTargetDependency */,
+			);
+			name = OddsTests;
+			productName = OddsTests;
+			productReference = 660E044A1DB007FC00EFFA09 /* OddsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		660E04541DB007FC00EFFA09 /* OddsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E04641DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "OddsUITests" */;
+			buildPhases = (
+				660E04511DB007FC00EFFA09 /* Sources */,
+				660E04521DB007FC00EFFA09 /* Frameworks */,
+				660E04531DB007FC00EFFA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660E04571DB007FC00EFFA09 /* PBXTargetDependency */,
+			);
+			name = OddsUITests;
+			productName = OddsUITests;
+			productReference = 660E04551DB007FC00EFFA09 /* OddsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660E042E1DB007FC00EFFA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Eric Saba";
+				TargetAttributes = {
+					660E04351DB007FC00EFFA09 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AD3Q679F44;
+						ProvisioningStyle = Automatic;
+					};
+					660E04491DB007FC00EFFA09 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AD3Q679F44;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 660E04351DB007FC00EFFA09;
+					};
+					660E04541DB007FC00EFFA09 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AD3Q679F44;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 660E04351DB007FC00EFFA09;
+					};
+				};
+			};
+			buildConfigurationList = 660E04311DB007FC00EFFA09 /* Build configuration list for PBXProject "Odds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660E042D1DB007FC00EFFA09;
+			productRefGroup = 660E04371DB007FC00EFFA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660E04351DB007FC00EFFA09 /* Odds */,
+				660E04491DB007FC00EFFA09 /* OddsTests */,
+				660E04541DB007FC00EFFA09 /* OddsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660E04341DB007FC00EFFA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E04441DB007FC00EFFA09 /* LaunchScreen.storyboard in Resources */,
+				660E04411DB007FC00EFFA09 /* Assets.xcassets in Resources */,
+				660E043F1DB007FC00EFFA09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04481DB007FC00EFFA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04531DB007FC00EFFA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3995BD695E54ECA4F03D6D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAEBDC033B43B4376D6ECAC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Odds/Pods-Odds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92E0B6A7F99193DBF32664F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Odds/Pods-Odds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660E04321DB007FC00EFFA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EC8EDC1DD3E9DE002004E5 /* CompletedChallenge.swift in Sources */,
+				660E043A1DB007FC00EFFA09 /* AppDelegate.swift in Sources */,
+				660E046E1DB0159600EFFA09 /* CompletedTableViewController.swift in Sources */,
+				66EC8ED81DD3E4DA002004E5 /* OpenChallenge.swift in Sources */,
+				660E04781DB040DA00EFFA09 /* AcceptOddsViewController.swift in Sources */,
+				66EC8EE01DD408B2002004E5 /* Votes.swift in Sources */,
+				660E04701DB016DF00EFFA09 /* LogInViewController.swift in Sources */,
+				66EC8EDE1DD3ECCA002004E5 /* AcceptedRequest.swift in Sources */,
+				660E04761DB03BF300EFFA09 /* NewOddsViewController.swift in Sources */,
+				660E046C1DB0145200EFFA09 /* RequestsTableViewController.swift in Sources */,
+				660E04741DB0263600EFFA09 /* AddFriendsViewController.swift in Sources */,
+				66EC8ED61DD3DF03002004E5 /* Challenge.swift in Sources */,
+				66EC8EDA1DD3E82B002004E5 /* PersonalChallenge.swift in Sources */,
+				6672FD811DD41AB500813971 /* OddsModel.xcdatamodeld in Sources */,
+				66EC8ED21DD3DC26002004E5 /* FriendshipRequest.swift in Sources */,
+				6672FD831DD4211600813971 /* SignUpViewController.swift in Sources */,
+				660E04721DB01E9500EFFA09 /* FriendsViewController.swift in Sources */,
+				660E046A1DB0119F00EFFA09 /* FeedTableViewController.swift in Sources */,
+				660E04681DB00D4100EFFA09 /* MenuTableTableViewController.swift in Sources */,
+				66EC8ECF1DD3D829002004E5 /* User.swift in Sources */,
+				66EC8ED41DD3DE3B002004E5 /* Friendship.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04461DB007FC00EFFA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E044F1DB007FC00EFFA09 /* OddsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E04511DB007FC00EFFA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E045A1DB007FC00EFFA09 /* OddsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660E044C1DB007FC00EFFA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660E04351DB007FC00EFFA09 /* Odds */;
+			targetProxy = 660E044B1DB007FC00EFFA09 /* PBXContainerItemProxy */;
+		};
+		660E04571DB007FC00EFFA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660E04351DB007FC00EFFA09 /* Odds */;
+			targetProxy = 660E04561DB007FC00EFFA09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660E043D1DB007FC00EFFA09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660E043E1DB007FC00EFFA09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660E04421DB007FC00EFFA09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660E04431DB007FC00EFFA09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660E045C1DB007FC00EFFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		660E045D1DB007FC00EFFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660E045F1DB007FC00EFFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915030FA3BE7076DB6984981 /* Pods-Odds.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = Odds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.Odds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		660E04601DB007FC00EFFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4906B8BE8EF9CA200BBA512B /* Pods-Odds.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = Odds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.Odds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		660E04621DB007FC00EFFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = OddsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.OddsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odds.app/Odds";
+			};
+			name = Debug;
+		};
+		660E04631DB007FC00EFFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = OddsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.OddsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odds.app/Odds";
+			};
+			name = Release;
+		};
+		660E04651DB007FC00EFFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = OddsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.OddsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Odds;
+			};
+			name = Debug;
+		};
+		660E04661DB007FC00EFFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AD3Q679F44;
+				INFOPLIST_FILE = OddsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = odds.OddsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Odds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660E04311DB007FC00EFFA09 /* Build configuration list for PBXProject "Odds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E045C1DB007FC00EFFA09 /* Debug */,
+				660E045D1DB007FC00EFFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E045E1DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "Odds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E045F1DB007FC00EFFA09 /* Debug */,
+				660E04601DB007FC00EFFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E04611DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "OddsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E04621DB007FC00EFFA09 /* Debug */,
+				660E04631DB007FC00EFFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E04641DB007FC00EFFA09 /* Build configuration list for PBXNativeTarget "OddsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E04651DB007FC00EFFA09 /* Debug */,
+				660E04661DB007FC00EFFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6672FD7F1DD41AB500813971 /* OddsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6672FD801DD41AB500813971 /* OddsModel.xcdatamodel */,
+			);
+			currentVersion = 6672FD801DD41AB500813971 /* OddsModel.xcdatamodel */;
+			path = OddsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 660E042E1DB007FC00EFFA09 /* Project object */;
+}
